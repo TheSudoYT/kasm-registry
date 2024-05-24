@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
+    name: 'The_Sudo',
+    description: 'Kasm Workspaces Created by TheSudo',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    listUrl: 'https://TheSudoYT.github.io/kasm-registry/',
+    contactUrl: 'https://github.com/TheSudoYT/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
