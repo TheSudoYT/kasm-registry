@@ -4,7 +4,7 @@
     "image_src": "minecraft.png",
     "name": "thesudo/kasm-minecraft-client:latest",
     "cores": 2,
-    "memory": 4096,
+    "memory": 2048,
     "run_config": {
       "hostname": "minecraft",
       "entrypoint": [
