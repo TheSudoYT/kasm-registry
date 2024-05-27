@@ -3,17 +3,15 @@
     "docker_registry": "https://index.docker.io/v1/",
     "image_src": "minecraft.png",
     "name": "thesudo/kasm-minecraft-client:latest",
+    "cores": 2,
+    "memory": 4096,
     "run_config": {
-      "hostname": "minecraft"
+      "hostname": "minecraft",
+      "entrypoint": [
+        "/usr/bin/minecraft-launcher"
+      ]
     },
-    "exec_config": {
-      "go": {
-        "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-      },
-      "assign": {
-        "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
-      }
-    },
+    "exec_config": {},
     "categories": [
       "Games"
     ],
